@@ -1,0 +1,435 @@
+{
+    "pages": {
+        "terms_and_conditions": {
+            "page_name": "02A01 - Terms & Conds",
+            "page_section": "Onboarding:Terms&Conds",
+            "page_time_on": "",
+            "page_link_source": "",
+            "page_url": "",
+            "journey_data": {
+                "journey_name": "Onboarding",
+                "journey_type": ""
+            },
+            "custom_map": {
+                "journey_otp_method": "",
+                "a": {
+                    "b": {
+                        "c" : "aa"
+                    }
+                }
+            }
+        },
+        "onboarding_home": {
+            "page_name": "02B01 - Onboarding home",
+            "page_section": "Onboarding",
+            "page_time_on": "",
+            "page_link_source": "",
+            "page_url": "",
+            "journey_data": {
+                "journey_name": "Onboarding",
+                "journey_type": ""
+            },
+            "custom_map": {
+                "journey_otp_method": "",
+                "a": {
+                    "b": {
+                        "c" : "aa"
+                    }
+                }
+            }
+        },
+        "address": {
+            "page_name": "02B02 - Address",
+            "page_link_source": "",
+            "page_url": "",
+            "page_error": "",
+            "journey_data": {
+                "journey_name": "Onboarding",
+                "journey_type": ""
+            },
+            "custom_map": {
+                "journey_otp_method": ""
+            }
+        },
+        "qa_edit_address": {
+            "page_name": "02B03 - QA Edit Address",
+            "page_link_source": "",
+            "page_url": "",
+            "page_error": "",
+            "form_name":"Address",
+            "form_step_name":"Edit Address",
+            "form_type":"registration",
+            "journey_data": {
+                "journey_name": "Onboarding",
+                "journey_type": ""
+            },
+            "custom_map": {
+                "journey_otp_method": ""
+            }
+        },
+        "id_verification_introduction": {
+            "page_name": "02B04 - ID Verification",
+            "page_link_source": "",
+            "page_url": "",
+            "page_error": "",
+            "journey_data": {
+                "journey_name": "Onboarding",
+                "journey_type": ""
+            },
+            "custom_map": {
+                "journey_otp_method": ""
+            }
+        },
+        "id_verification_step_one": {
+            "page_name": "02B05 - ID Verification step one",
+            "page_link_source": "",
+            "page_url": "",
+            "page_error": "",
+            "journey_data": {
+                "journey_name": "Onboarding",
+                "journey_type": ""
+            },
+            "custom_map": {
+                "journey_otp_method": ""
+            }
+        },
+        "id_verification_step_two": {
+            "page_name": "02B08 - ID Verification step two",
+            "page_link_source": "",
+            "page_url": "",
+            "page_error": "",
+            "journey_data": {
+                "journey_name": "Onboarding",
+                "journey_type": ""
+            },
+            "custom_map": {
+                "journey_otp_method": ""
+            }
+        },
+        "camera_permission": {
+            "page_name": "02B06 - Camera permission",
+            "page_link_source": "",
+            "page_url": "",
+            "page_error": "",
+            "journey_data": {
+                "journey_name": "address",
+                "journey_type": ""
+            },
+            "custom_map": {
+                "journey_otp_method": ""
+            }
+        },
+        "camera": {
+            "page_name": "02B07 - Camera",
+            "page_link_source": "",
+            "page_url": "",
+            "page_error": "",
+            "journey_data": {
+                "journey_name": "Onboarding",
+                "journey_type": ""
+            },
+            "custom_map": {
+                "journey_otp_method": ""
+            }
+        },
+        "biometrics": {
+            "page_name": "02B10 - Biometrics",
+            "page_link_source": "",
+            "page_url": "",
+            "page_error": "",
+            "journey_data": {
+                "journey_name": "Onboarding",
+                "journey_type": ""
+            },
+            "custom_map": {
+                "journey_otp_method": ""
+            }
+        },
+        "biometrics_permission": {
+            "page_name": "02B11 - Biometrics permission",
+            "page_link_source": "",
+            "page_url": "",
+            "page_error": "",
+            "journey_data": {
+                "journey_name": "Onboarding",
+                "journey_type": ""
+            },
+            "custom_map": {
+                "journey_otp_method": ""
+            }
+        },
+        "payment_method": {
+            "page_name": "02B12 - Payment method",
+            "page_link_source": "",
+            "page_url": "",
+            "page_error": "",
+            "journey_data": {
+                "journey_name": "Onboarding",
+                "journey_type": ""
+            },
+            "custom_map": {
+                "journey_otp_method": ""
+            }
+        },
+        "qa_add_new_card": {
+            "page_name": "02B13 - QA / Add new card",
+            "page_link_source": "",
+            "page_url": "",
+            "page_error": "",
+            "form_name":"Payment method, Add new credit/debit card",
+            "form_step_name":"Add new credit/debit card",
+            "form_type":"registration",
+            "journey_data": {
+                "journey_name": "Onboarding",
+                "journey_type": ""
+            },
+            "custom_map": {
+                "journey_otp_method": ""
+            }
+        },
+        "permissions": {
+            "page_name": "02B14 - Permissions",
+            "page_link_source": "",
+            "page_url": "",
+            "page_error": "",
+            "journey_data": {
+                "journey_name": "Onboarding",
+                "journey_type": ""
+            },
+            "custom_map": {
+                "journey_otp_method": ""
+            }
+        },
+        "permission_scrolled": {
+            "page_name": "02B15 - Permissions scrolled",
+            "page_section": "Onboarding",
+            "page_time_on": "",
+            "page_link_source": "",
+            "page_url": "",
+            "journey_data": {
+                "journey_name": "Onboarding",
+                "journey_type": "onboarding"
+            },
+            "custom_map": {
+                "journey_otp_method": "",
+                "a": {
+                    "b": {
+                        "c" : "aa"
+                    }
+                }
+            }
+        },
+        "permissions_popup": {
+            "page_name": "02B16 - Permissions pop-up",
+            "page_section": "Onboarding",
+            "page_time_on": "",
+            "page_link_source": "",
+            "page_url": "",
+            "journey_data": {
+                "journey_name": "Onboarding",
+                "journey_type": "onboarding"
+            },
+            "custom_map": {
+                "journey_otp_method": "",
+                "a": {
+                    "b": {
+                        "c" : "aa"
+                    }
+                }
+            }
+        },
+        "permissions_active": {
+            "page_name": "02B17 - Permissions active",
+            "page_section": "Onboarding",
+            "page_time_on": "",
+            "page_link_source": "",
+            "page_url": "",
+            "journey_data": {
+                "journey_name": "Onboarding",
+                "journey_type": "onboarding"
+            },
+            "custom_map": {
+                "journey_otp_method": "",
+                "a": {
+                    "b": {
+                        "c" : "aa"
+                    }
+                }
+            }
+        },
+        "take_control_of_your_data": {
+            "page_name": "02B18 - Data",
+            "page_section": "Onboarding",
+            "page_time_on": "",
+            "page_link_source": "",
+            "page_url": "",
+            "journey_data": {
+                "journey_name": "Onboarding",
+                "journey_type": "onboarding"
+            },
+            "custom_map": {
+                "journey_otp_method": "",
+                "a": {
+                    "b": {
+                        "c" : "aa"
+                    }
+                }
+            }
+        },
+        "congratulations_screen": {
+            "page_name": "02B19 - Congratulations screen",
+            "page_section": "Onboarding",
+            "page_time_on": "",
+            "page_link_source": "",
+            "page_url": "",
+            "journey_data": {
+                "journey_name": "Onboarding",
+                "journey_type": "onboarding"
+            },
+            "custom_map": {
+                "journey_otp_method": "",
+                "a": {
+                    "b": {
+                        "c" : "aa"
+                    }
+                }
+            }
+        },
+        "page_view": {
+            "page_name": "Onboarding home",
+            "journey_data": {
+                "journey_name": "Onboarding",
+                "journey_type": ""
+            },
+            "custom_map": {
+                "journey_otp_method": "",
+                "a": {
+                    "b": {
+                        "c" : "aa"
+                    }
+                }
+            }
+        }
+    },
+    "events": {
+        "terms_and_conditions_agreed": {
+            "page_name": "02A02 - Terms & Conds agreed",
+            "page_section": "Onboarding:Terms&Conds",
+            "event_action":"OnClick",
+            "event_category":"Button",
+            "event_label":"Continue",
+            "page_time_on": "",
+            "page_link_source": "",
+            "page_url": "",
+            "journey_data": {
+                "journey_name": "Onboarding",
+                "journey_type": ""
+            },
+            "custom_map": {
+                "journey_otp_method": "",
+                "a": {
+                    "b": {
+                        "c" : "aa"
+                    }
+                }
+            }
+        },
+        "form_start": {
+            "form_name" : "",
+            "form_type" : "",
+            "form_step_name":"",
+            "event_action": "OnClick",
+            "event_category": "Button",
+            "event_value": "",
+            "event_label": "Let's go",
+            "page_name": "Onboarding home",
+            "page_section": "",
+            "journey_data": {
+                "journey_name": "Onboarding",
+                "journey_type": ""
+            },
+            "custom_map": {
+                "journey_otp_method": ""
+            }
+        },
+        "form_end": {
+            "event_action": "OnClick",
+            "event_category": "Button",
+            "event_value": "",
+            "event_label": "Let's go",
+            "form_name" : "",
+            "form_type" : "",
+            "form_step_name":"",
+            "page_name": "Onboarding home",
+            "page_section": "",
+            "journey_data": {
+                "journey_name": "Onboarding",
+                "journey_type": ""
+            },
+            "custom_map": {
+
+            }
+        },
+        "form_error": {
+            "form_name" : "",
+            "form_type" : "",
+            "form_error" : "",
+            "form_step_name":"",
+            "event_action": "OnClick",
+            "event_category": "Button",
+            "event_value": "",
+            "event_label": "Let's go",
+            "page_name": "Onboarding home",
+            "journey_data": {
+                "journey_name": "Onboarding",
+                "journey_type": ""
+            },
+            "custom_map": {
+                "journey_otp_method": ""
+            }
+        },
+        "visitor_permission_enable": {
+            "event_action": "OnClick",
+            "event_category": "Button",
+            "event_value": "",
+            "event_label": "",
+            "page_name": "Onboarding home",
+            "journey_data": {
+                "journey_name": "Onboarding",
+                "journey_type": ""
+            },
+            "custom_map": {
+                "journey_otp_method": ""
+            }
+        },
+        "visitor_permission_disable": {
+            "event_action": "OnClick",
+            "event_category": "Button",
+            "event_value": "",
+            "event_label": "",
+            "page_name": "Onboarding home",
+            "journey_data": {
+                "journey_name": "Onboarding",
+                "journey_type": ""
+            },
+            "custom_map": {
+                "journey_otp_method": ""
+            }
+        },
+        "ui_interaction": {
+            "event_action": "OnClick",
+            "event_category": "Button",
+            "event_value": "",
+            "event_label": "",
+            "page_name": "Onboarding home",
+            "page_section": "Onboarding home",
+            "journey_data": {
+                "journey_name": "Onboarding",
+                "journey_type": ""
+            },
+            "custom_map": {
+                "journey_otp_method": ""
+            }
+        }
+    }
+}
