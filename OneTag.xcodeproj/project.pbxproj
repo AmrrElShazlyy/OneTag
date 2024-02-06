@@ -108,6 +108,23 @@
 		8A9AF4BC2B72DE6300BD13CA /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				8A9AF4E62B72E79600BD13CA /* UDLModels */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8A9AF4DD2B72E5BE00BD13CA /* JSONs */ = {
+			isa = PBXGroup;
+			children = (
+				8A9AF4E22B72E66500BD13CA /* onboarding.json */,
+				8A9AF4E42B72E74100BD13CA /* simpleOnBoarding.json */,
+			);
+			path = JSONs;
+			sourceTree = "<group>";
+		};
+		8A9AF4E62B72E79600BD13CA /* UDLModels */ = {
+			isa = PBXGroup;
+			children = (
 				8A9AF4BD2B72DE7500BD13CA /* UDLModel.swift */,
 				8A9AF4BF2B72E3DF00BD13CA /* MediaModel.swift */,
 				8A9AF4C12B72E3F000BD13CA /* CampaignModel.swift */,
@@ -125,16 +142,7 @@
 				8A9AF4D92B72E47100BD13CA /* ToolModel.swift */,
 				8A9AF4DB2B72E47A00BD13CA /* VisitorModel.swift */,
 			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		8A9AF4DD2B72E5BE00BD13CA /* JSONs */ = {
-			isa = PBXGroup;
-			children = (
-				8A9AF4E22B72E66500BD13CA /* onboarding.json */,
-				8A9AF4E42B72E74100BD13CA /* simpleOnBoarding.json */,
-			);
-			path = JSONs;
+			path = UDLModels;
 			sourceTree = "<group>";
 		};
 		8AD709132B72DAD200D8CF5D = {
