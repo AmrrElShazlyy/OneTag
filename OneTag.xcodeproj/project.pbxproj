@@ -8,6 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		8A9AF4BA2B72DC5000BD13CA /* TealiumHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9AF4B92B72DC5000BD13CA /* TealiumHelper.swift */; };
+		8A9AF4BE2B72DE7500BD13CA /* UDLModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9AF4BD2B72DE7500BD13CA /* UDLModel.swift */; };
+		8A9AF4C02B72E3DF00BD13CA /* MediaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9AF4BF2B72E3DF00BD13CA /* MediaModel.swift */; };
+		8A9AF4C22B72E3F000BD13CA /* CampaignModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9AF4C12B72E3F000BD13CA /* CampaignModel.swift */; };
+		8A9AF4C42B72E3FB00BD13CA /* ECommerceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9AF4C32B72E3FB00BD13CA /* ECommerceModel.swift */; };
+		8A9AF4C62B72E40600BD13CA /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9AF4C52B72E40600BD13CA /* ChatModel.swift */; };
+		8A9AF4C82B72E41100BD13CA /* ComponentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9AF4C72B72E41100BD13CA /* ComponentModel.swift */; };
+		8A9AF4CA2B72E41A00BD13CA /* EventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9AF4C92B72E41A00BD13CA /* EventModel.swift */; };
+		8A9AF4CC2B72E42300BD13CA /* FormModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9AF4CB2B72E42300BD13CA /* FormModel.swift */; };
+		8A9AF4CE2B72E42C00BD13CA /* OfflineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9AF4CD2B72E42C00BD13CA /* OfflineModel.swift */; };
+		8A9AF4D02B72E43500BD13CA /* JourneyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9AF4CF2B72E43500BD13CA /* JourneyModel.swift */; };
+		8A9AF4D22B72E44C00BD13CA /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9AF4D12B72E44C00BD13CA /* PageModel.swift */; };
+		8A9AF4D42B72E45700BD13CA /* SearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9AF4D32B72E45700BD13CA /* SearchModel.swift */; };
+		8A9AF4D62B72E45F00BD13CA /* SupportModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9AF4D52B72E45F00BD13CA /* SupportModel.swift */; };
+		8A9AF4D82B72E46700BD13CA /* SurveyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9AF4D72B72E46700BD13CA /* SurveyModel.swift */; };
+		8A9AF4DA2B72E47100BD13CA /* ToolModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9AF4D92B72E47100BD13CA /* ToolModel.swift */; };
+		8A9AF4DC2B72E47A00BD13CA /* VisitorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9AF4DB2B72E47A00BD13CA /* VisitorModel.swift */; };
 		8AD709202B72DAD300D8CF5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD7091F2B72DAD300D8CF5D /* AppDelegate.swift */; };
 		8AD709222B72DAD300D8CF5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD709212B72DAD300D8CF5D /* SceneDelegate.swift */; };
 		8AD709242B72DAD300D8CF5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD709232B72DAD300D8CF5D /* ViewController.swift */; };
@@ -21,6 +37,22 @@
 		00D73AB451254BC5C8391BEF /* Pods-OneTag.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneTag.release.xcconfig"; path = "Target Support Files/Pods-OneTag/Pods-OneTag.release.xcconfig"; sourceTree = "<group>"; };
 		4F89AA142F05C6ACC06433FC /* Pods-OneTag.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneTag.debug.xcconfig"; path = "Target Support Files/Pods-OneTag/Pods-OneTag.debug.xcconfig"; sourceTree = "<group>"; };
 		8A9AF4B92B72DC5000BD13CA /* TealiumHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TealiumHelper.swift; sourceTree = "<group>"; };
+		8A9AF4BD2B72DE7500BD13CA /* UDLModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDLModel.swift; sourceTree = "<group>"; };
+		8A9AF4BF2B72E3DF00BD13CA /* MediaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaModel.swift; sourceTree = "<group>"; };
+		8A9AF4C12B72E3F000BD13CA /* CampaignModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignModel.swift; sourceTree = "<group>"; };
+		8A9AF4C32B72E3FB00BD13CA /* ECommerceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECommerceModel.swift; sourceTree = "<group>"; };
+		8A9AF4C52B72E40600BD13CA /* ChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
+		8A9AF4C72B72E41100BD13CA /* ComponentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentModel.swift; sourceTree = "<group>"; };
+		8A9AF4C92B72E41A00BD13CA /* EventModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventModel.swift; sourceTree = "<group>"; };
+		8A9AF4CB2B72E42300BD13CA /* FormModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormModel.swift; sourceTree = "<group>"; };
+		8A9AF4CD2B72E42C00BD13CA /* OfflineModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineModel.swift; sourceTree = "<group>"; };
+		8A9AF4CF2B72E43500BD13CA /* JourneyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyModel.swift; sourceTree = "<group>"; };
+		8A9AF4D12B72E44C00BD13CA /* PageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageModel.swift; sourceTree = "<group>"; };
+		8A9AF4D32B72E45700BD13CA /* SearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModel.swift; sourceTree = "<group>"; };
+		8A9AF4D52B72E45F00BD13CA /* SupportModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportModel.swift; sourceTree = "<group>"; };
+		8A9AF4D72B72E46700BD13CA /* SurveyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyModel.swift; sourceTree = "<group>"; };
+		8A9AF4D92B72E47100BD13CA /* ToolModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolModel.swift; sourceTree = "<group>"; };
+		8A9AF4DB2B72E47A00BD13CA /* VisitorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorModel.swift; sourceTree = "<group>"; };
 		8AD7091C2B72DAD300D8CF5D /* OneTag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneTag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AD7091F2B72DAD300D8CF5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AD709212B72DAD300D8CF5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +93,37 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8A9AF4BB2B72DE5600BD13CA /* Tealium */ = {
+			isa = PBXGroup;
+			children = (
+				8A9AF4B92B72DC5000BD13CA /* TealiumHelper.swift */,
+			);
+			path = Tealium;
+			sourceTree = "<group>";
+		};
+		8A9AF4BC2B72DE6300BD13CA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8A9AF4BD2B72DE7500BD13CA /* UDLModel.swift */,
+				8A9AF4BF2B72E3DF00BD13CA /* MediaModel.swift */,
+				8A9AF4C12B72E3F000BD13CA /* CampaignModel.swift */,
+				8A9AF4C32B72E3FB00BD13CA /* ECommerceModel.swift */,
+				8A9AF4C52B72E40600BD13CA /* ChatModel.swift */,
+				8A9AF4C72B72E41100BD13CA /* ComponentModel.swift */,
+				8A9AF4C92B72E41A00BD13CA /* EventModel.swift */,
+				8A9AF4CB2B72E42300BD13CA /* FormModel.swift */,
+				8A9AF4CD2B72E42C00BD13CA /* OfflineModel.swift */,
+				8A9AF4CF2B72E43500BD13CA /* JourneyModel.swift */,
+				8A9AF4D12B72E44C00BD13CA /* PageModel.swift */,
+				8A9AF4D32B72E45700BD13CA /* SearchModel.swift */,
+				8A9AF4D52B72E45F00BD13CA /* SupportModel.swift */,
+				8A9AF4D72B72E46700BD13CA /* SurveyModel.swift */,
+				8A9AF4D92B72E47100BD13CA /* ToolModel.swift */,
+				8A9AF4DB2B72E47A00BD13CA /* VisitorModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		8AD709132B72DAD200D8CF5D = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +145,8 @@
 		8AD7091E2B72DAD300D8CF5D /* OneTag */ = {
 			isa = PBXGroup;
 			children = (
+				8A9AF4BC2B72DE6300BD13CA /* Models */,
+				8A9AF4BB2B72DE5600BD13CA /* Tealium */,
 				8AD7091F2B72DAD300D8CF5D /* AppDelegate.swift */,
 				8AD709212B72DAD300D8CF5D /* SceneDelegate.swift */,
 				8AD709232B72DAD300D8CF5D /* ViewController.swift */,
@@ -89,7 +154,6 @@
 				8AD709282B72DAD400D8CF5D /* Assets.xcassets */,
 				8AD7092A2B72DAD400D8CF5D /* LaunchScreen.storyboard */,
 				8AD7092D2B72DAD400D8CF5D /* Info.plist */,
-				8A9AF4B92B72DC5000BD13CA /* TealiumHelper.swift */,
 			);
 			path = OneTag;
 			sourceTree = "<group>";
@@ -209,10 +273,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A9AF4CE2B72E42C00BD13CA /* OfflineModel.swift in Sources */,
+				8A9AF4D22B72E44C00BD13CA /* PageModel.swift in Sources */,
+				8A9AF4DC2B72E47A00BD13CA /* VisitorModel.swift in Sources */,
+				8A9AF4C42B72E3FB00BD13CA /* ECommerceModel.swift in Sources */,
+				8A9AF4D42B72E45700BD13CA /* SearchModel.swift in Sources */,
 				8AD709242B72DAD300D8CF5D /* ViewController.swift in Sources */,
+				8A9AF4DA2B72E47100BD13CA /* ToolModel.swift in Sources */,
 				8AD709202B72DAD300D8CF5D /* AppDelegate.swift in Sources */,
+				8A9AF4CC2B72E42300BD13CA /* FormModel.swift in Sources */,
+				8A9AF4C02B72E3DF00BD13CA /* MediaModel.swift in Sources */,
+				8A9AF4D02B72E43500BD13CA /* JourneyModel.swift in Sources */,
 				8AD709222B72DAD300D8CF5D /* SceneDelegate.swift in Sources */,
+				8A9AF4C22B72E3F000BD13CA /* CampaignModel.swift in Sources */,
 				8A9AF4BA2B72DC5000BD13CA /* TealiumHelper.swift in Sources */,
+				8A9AF4CA2B72E41A00BD13CA /* EventModel.swift in Sources */,
+				8A9AF4D82B72E46700BD13CA /* SurveyModel.swift in Sources */,
+				8A9AF4BE2B72DE7500BD13CA /* UDLModel.swift in Sources */,
+				8A9AF4C62B72E40600BD13CA /* ChatModel.swift in Sources */,
+				8A9AF4C82B72E41100BD13CA /* ComponentModel.swift in Sources */,
+				8A9AF4D62B72E45F00BD13CA /* SupportModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
