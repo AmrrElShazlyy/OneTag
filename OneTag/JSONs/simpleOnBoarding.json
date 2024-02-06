@@ -18,7 +18,7 @@
                 }
             }
         },
-        "new_page_view": {  
+        "new_page_view": {
             "page_name": "new page name",
             "page_link_source": "",
             "page_url": "",
@@ -43,47 +43,48 @@
             "custom_map": {
                 "journey_otp_method": ""
             }
-        },
-        "events": {
-            "form_start": {
-                "event_action": "OnClick",
-                "event_category": "Button",
-                "event_value": "",
-                "event_label": "Let's go",
-                "page_name": "Onboarding home",
-                "page_link_source": "",
-                "page_url": "",
-                "page_error": "",
-                "journey_data": {
-                    "journey_name": "Onboarding",
-                    "journey_type": ""
-                },
-                "custom_map": {
-                    "journey_otp_method": ""
-                }
+        }
+    },
+    "events": {
+        "form_start": {
+            "event_action": "OnClick",
+            "event_category": "Button",
+            "event_value": "",
+            "event_label": "Let's go",
+            "page_name": "Onboarding home",
+            "page_link_source": "",
+            "page_url": "",
+            "page_error": "",
+            "journey_data": {
+                "journey_name": "Onboarding",
+                "journey_type": ""
             },
-            "form_end": {
-                "event_action": "OnClick",
-                "event_category": "Button",
-                "event_value": "",
-                "event_label": "Let's go",
-                "page_name": "form end page",
-                "page_link_source": "",
-                "page_url": "",
-                "page_error": "",
-                "journey_data": {
-                    "journey_name": "Onboarding",
-                    "journey_ayhaga": "125267",
-                    "journey_ayhaga2": "77",
-                    "journey_name3": "Onboard3ing",
-                    "journey_type": ""
-                },
-                "custom_map": {
-                    "journey_otp_method": "",
-                    "journey_otp_method1": "",
-                    "journey_otp_method2": "",
-                    "journey_otp_method3": ""
-                }
+            "custom_map": {
+                "journey_otp_method": ""
+            }
+        },
+        "form_end": {
+            "event_action": "OnClick",
+            "event_category": "Button",
+            "event_value": "",
+            "event_label": "Let's go",
+            "page_name": "form end page",
+            "page_link_source": "",
+            "page_url": "",
+            "page_error": "",
+            "journey_data": {
+                "journey_name": "Onboarding",
+                "journey_ayhaga": "125267",
+                "journey_ayhaga2": "77",
+                "journey_name3": "Onboard3ing",
+                "journey_type": ""
+            },
+            "custom_map": {
+                "journey_otp_method": "",
+                "journey_otp_method1": "",
+                "journey_otp_method2": "",
+                "journey_otp_method3": ""
             }
         }
     }
+}
