@@ -8,12 +8,16 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        let onBoardingTaggingModel = OnBoardingModelTaggingModel()
+        print("@@@ address obj: \(onBoardingTaggingModel.pages?.address)")
+        let dict = convertObjectToDictionary(onBoardingTaggingModel.pages?.address)
+        print("\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n")
+        print("@@@ address obj dic: \(onBoardingTaggingModel.pages?.address)")
+        //TealiumHelper.trackView(title: "view", data: dict)
+
     }
-
-
 }
 

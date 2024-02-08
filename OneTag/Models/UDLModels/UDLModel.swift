@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct UDL: Media, Campaign, ECommerce, Chat, Component, Event, Form, Offline, Journey, Page, Search, Support, Survey, Tool, Visitor {
+struct UDL: Media, Campaign, ECommerce, Chat, ComponentModel, EventModel, FormModel, Offline, Page, Search, Support, Survey, Tool, Visitor{
     
     var advertisingPlatformId: String?
     var downloadError: String?
@@ -126,12 +126,7 @@ struct UDL: Media, Campaign, ECommerce, Chat, Component, Event, Form, Offline, J
     var retailStoreId: String?
     var transactionChannelOffline: String?
     var transactionIdOffline: String?
-    var journeyName: String?
-    var journeyType: String?
-    var loginDateFirst: String?
-    var loginDateLast: String?
-    var visitorIntent: String?
-    var visitorIdIntent: String?
+    var journeyData: Journey?
     var pageBreadcrumb: String?
     var pageCanonicalUrl: String?
     var pageChannel: String?
@@ -270,6 +265,7 @@ struct UDL: Media, Campaign, ECommerce, Chat, Component, Event, Form, Offline, J
     var visitorIdBillPrimary: String?
     var visitorIdClickAdvertising: String?
     var visitorIdCms: String?
+    // end Visitor
     var visitorIdCompany: String?
     var visitorIdCustomer: String?
     var visitorIdDeviceAdvertising: String?
@@ -297,7 +293,7 @@ struct UDL: Media, Campaign, ECommerce, Chat, Component, Event, Form, Offline, J
     var visitorPermissionPerformance: String?
     var visitorPermissionStrictlyNecessary: String?
     var visitorPermissionTargeting: String?
-    var visitorPermissionUpdateDate: String
+    var visitorPermissionUpdateDate: String?
     var visitorPreferenceName: String?
     var visitorPreferenceValue: String?
     var visitorPreferences: String?

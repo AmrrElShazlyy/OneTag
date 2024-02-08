@@ -5,7 +5,7 @@
 //  Created by Amr El Shazly on 07/02/2024.
 //
 
-protocol Event {
+protocol EventModel {
     var eventAction: String? { get set }
     var eventCategory: String? { get set }
     var eventId: String? { get set }
