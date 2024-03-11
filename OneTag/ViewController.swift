@@ -9,15 +9,16 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    let onBoardingTaggingModel = OnBoardingModelTaggingModel()
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        let onBoardingTaggingModel = OnBoardingModelTaggingModel()
-        print("@@@ address obj: \(onBoardingTaggingModel.pages?.address)")
-        let dict = convertObjectToDictionary(onBoardingTaggingModel.pages?.address)
-        print("\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n")
-        print("@@@ address obj dic: \(onBoardingTaggingModel.pages?.address)")
-        //TealiumHelper.trackView(title: "view", data: dict)
-
     }
+    
+    @IBAction func TrackEvent(_ sender: UIButton) {
+        guard let formStartEvent = onBoardingTaggingModel.events?.formStart else { return }
+        TealiumHelper.trackEvent(title: "formStartEvent$$", data: formStartEvent)
+    }
+    
 }
 
