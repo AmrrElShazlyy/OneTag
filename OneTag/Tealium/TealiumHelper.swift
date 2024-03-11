@@ -45,8 +45,20 @@ class TealiumHelper {
         TealiumHelper.shared.tealium?.track(tealView)
     }
     
+    class func trackView(title: String, data: UDL) {
+        let dict = UtilityManager.convertObjectToDictionary(data)
+        let tealView = TealiumView(title, dataLayer: dict)
+        TealiumHelper.shared.tealium?.track(tealView)
+    }
+    
     class func trackEvent(title: String, data: [String: Any]?) {
         let tealEvent = TealiumEvent(title, dataLayer: data)
+        TealiumHelper.shared.tealium?.track(tealEvent)
+    }
+    
+    class func trackEvent(title: String, data: UDL) {
+        let dict = UtilityManager.convertObjectToDictionary(data)
+        let tealEvent = TealiumEvent(title, dataLayer: dict)
         TealiumHelper.shared.tealium?.track(tealEvent)
     }
 }
