@@ -1,0 +1,79 @@
+{
+    "pages": {
+        "onboarding_home": {
+            "page_name": "Onboarding home",
+            "page_link_source": "1242121512",
+            "page_url": "21321321",
+            "page_error": "",
+            "journey_data": {
+                "journey_name": "Onboarding",
+                "journey_type": ""
+            },
+            "custom_map": {
+                "journey_otp_method": ""
+            }
+        },
+        "new_page_view": {
+            "page_name": "new page name",
+            "page_link_source": "$$$",
+            "page_url": "%%%",
+            "page_error": "^^^",
+            "journey_data": {
+                "journey_name": "Onboarding",
+                "journey_type": "###"
+            },
+            "custom_map": {
+                "journey_otp_method": ""
+            }
+        },
+        "address": {
+            "page_name": "address home",
+            "page_link_source": "",
+            "page_url": "",
+            "page_error": "",
+            "journey_data": {
+                "journey_name": "address",
+                "journey_type": ""
+            },
+            "custom_map": {
+                "journey_otp_method": ""
+            }
+        }
+    },
+    "events": {
+        "form_start": {
+            "event_action": "OnClick",
+            "event_category": "Button",
+            "event_value": "",
+            "event_label": "Let's go",
+            "page_name": "Onboarding home",
+            "page_link_source": "",
+            "page_url": "",
+            "page_error": "",
+            "journey_data": {
+                "journey_name": "Onboarding",
+                "journey_type": ""
+            },
+            "custom_map": {
+                "journey_otp_method": ""
+            }
+        },
+        "form_end": {
+            "event_action": "OnClick",
+            "event_category": "Button",
+            "event_value": "",
+            "event_label": "Let's go",
+            "page_name": "form end page",
+            "page_link_source": "",
+            "page_url": "",
+            "page_error": "",
+            "journey_data": {
+                "journey_name": "Onboarding",
+                "journey_type": ""
+            },
+            "custom_map": {
+                "journey_otp_method": ""
+            }
+        }
+    }
+}
