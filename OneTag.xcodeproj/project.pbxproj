@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A780DBB2B9F2E420001D685 /* UtilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A780DBA2B9F2E420001D685 /* UtilityManager.swift */; };
 		8A8CC3852B73A6DF00565C08 /* UDLModel+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8CC3842B73A6DF00565C08 /* UDLModel+Codable.swift */; };
 		8A8CC38F2B73E39100565C08 /* MyPagesAndEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8CC38E2B73E39100565C08 /* MyPagesAndEvents.swift */; };
 		8A9270B82B73FE2B00AC98DB /* TaggingModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9270B72B73FE2B00AC98DB /* TaggingModelDelegate.swift */; };
@@ -42,6 +43,7 @@
 /* Begin PBXFileReference section */
 		00D73AB451254BC5C8391BEF /* Pods-OneTag.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneTag.release.xcconfig"; path = "Target Support Files/Pods-OneTag/Pods-OneTag.release.xcconfig"; sourceTree = "<group>"; };
 		4F89AA142F05C6ACC06433FC /* Pods-OneTag.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneTag.debug.xcconfig"; path = "Target Support Files/Pods-OneTag/Pods-OneTag.debug.xcconfig"; sourceTree = "<group>"; };
+		8A780DBA2B9F2E420001D685 /* UtilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityManager.swift; sourceTree = "<group>"; };
 		8A8CC3842B73A6DF00565C08 /* UDLModel+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UDLModel+Codable.swift"; sourceTree = "<group>"; };
 		8A8CC38E2B73E39100565C08 /* MyPagesAndEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPagesAndEvents.swift; sourceTree = "<group>"; };
 		8A9270B72B73FE2B00AC98DB /* TaggingModelDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaggingModelDelegate.swift; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 				8AD7092A2B72DAD400D8CF5D /* LaunchScreen.storyboard */,
 				8AD7092D2B72DAD400D8CF5D /* Info.plist */,
 				8A9270B72B73FE2B00AC98DB /* TaggingModelDelegate.swift */,
+				8A780DBA2B9F2E420001D685 /* UtilityManager.swift */,
 			);
 			path = OneTag;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 				8A9AF4CE2B72E42C00BD13CA /* OfflineModel.swift in Sources */,
 				8A9AF4D22B72E44C00BD13CA /* PageModel.swift in Sources */,
 				8A8CC3852B73A6DF00565C08 /* UDLModel+Codable.swift in Sources */,
+				8A780DBB2B9F2E420001D685 /* UtilityManager.swift in Sources */,
 				8A9AF4DC2B72E47A00BD13CA /* VisitorModel.swift in Sources */,
 				8A9AF4C42B72E3FB00BD13CA /* ECommerceModel.swift in Sources */,
 				8A9AF4D42B72E45700BD13CA /* SearchModel.swift in Sources */,
