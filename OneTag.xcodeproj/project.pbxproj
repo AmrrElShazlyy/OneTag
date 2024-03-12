@@ -10,6 +10,8 @@
 		8A780DBB2B9F2E420001D685 /* UtilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A780DBA2B9F2E420001D685 /* UtilityManager.swift */; };
 		8A780DBD2B9F365E0001D685 /* onBoardingEdited.json in Resources */ = {isa = PBXBuildFile; fileRef = 8A780DBC2B9F365E0001D685 /* onBoardingEdited.json */; };
 		8A780DBF2B9F36950001D685 /* simpleOnBoarding2.json in Sources */ = {isa = PBXBuildFile; fileRef = 8A780DBE2B9F36950001D685 /* simpleOnBoarding2.json */; };
+		8A7D76582BA0A77B0074F624 /* Encodable + Dict.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7D76572BA0A77B0074F624 /* Encodable + Dict.swift */; };
+		8A7D765A2BA0A7850074F624 /* Dictionary + JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7D76592BA0A7850074F624 /* Dictionary + JSON.swift */; };
 		8A8CC3852B73A6DF00565C08 /* UDLModel+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8CC3842B73A6DF00565C08 /* UDLModel+Codable.swift */; };
 		8A8CC38F2B73E39100565C08 /* MyPagesAndEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8CC38E2B73E39100565C08 /* MyPagesAndEvents.swift */; };
 		8A9270B82B73FE2B00AC98DB /* TaggingModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9270B72B73FE2B00AC98DB /* TaggingModelDelegate.swift */; };
@@ -48,6 +50,8 @@
 		8A780DBA2B9F2E420001D685 /* UtilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityManager.swift; sourceTree = "<group>"; };
 		8A780DBC2B9F365E0001D685 /* onBoardingEdited.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = onBoardingEdited.json; sourceTree = "<group>"; };
 		8A780DBE2B9F36950001D685 /* simpleOnBoarding2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = simpleOnBoarding2.json; sourceTree = "<group>"; };
+		8A7D76572BA0A77B0074F624 /* Encodable + Dict.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encodable + Dict.swift"; sourceTree = "<group>"; };
+		8A7D76592BA0A7850074F624 /* Dictionary + JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary + JSON.swift"; sourceTree = "<group>"; };
 		8A8CC3842B73A6DF00565C08 /* UDLModel+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UDLModel+Codable.swift"; sourceTree = "<group>"; };
 		8A8CC38E2B73E39100565C08 /* MyPagesAndEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPagesAndEvents.swift; sourceTree = "<group>"; };
 		8A9270B72B73FE2B00AC98DB /* TaggingModelDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaggingModelDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +113,15 @@
 				B6350229CDD8C81F1621C435 /* Pods_OneTag.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A7D76562BA0A7580074F624 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8A7D76572BA0A77B0074F624 /* Encodable + Dict.swift */,
+				8A7D76592BA0A7850074F624 /* Dictionary + JSON.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		8A9AF4BB2B72DE5600BD13CA /* Tealium */ = {
@@ -185,6 +198,7 @@
 		8AD7091E2B72DAD300D8CF5D /* OneTag */ = {
 			isa = PBXGroup;
 			children = (
+				8A7D76562BA0A7580074F624 /* Extensions */,
 				8A9AF4DD2B72E5BE00BD13CA /* JSONs */,
 				8A9AF4BC2B72DE6300BD13CA /* Models */,
 				8A9AF4BB2B72DE5600BD13CA /* Tealium */,
@@ -333,6 +347,7 @@
 				8A9AF4CC2B72E42300BD13CA /* FormModel.swift in Sources */,
 				8A9AF4C02B72E3DF00BD13CA /* MediaModel.swift in Sources */,
 				8A9AF4D02B72E43500BD13CA /* JourneyModel.swift in Sources */,
+				8A7D76582BA0A77B0074F624 /* Encodable + Dict.swift in Sources */,
 				8AD709222B72DAD300D8CF5D /* SceneDelegate.swift in Sources */,
 				8A9AF4C22B72E3F000BD13CA /* CampaignModel.swift in Sources */,
 				8A9AF4BA2B72DC5000BD13CA /* TealiumHelper.swift in Sources */,
@@ -343,6 +358,7 @@
 				8A9AF4C62B72E40600BD13CA /* ChatModel.swift in Sources */,
 				8A9AF4C82B72E41100BD13CA /* ComponentModel.swift in Sources */,
 				8A780DBF2B9F36950001D685 /* simpleOnBoarding2.json in Sources */,
+				8A7D765A2BA0A7850074F624 /* Dictionary + JSON.swift in Sources */,
 				8A9AF4D62B72E45F00BD13CA /* SupportModel.swift in Sources */,
 				8A9AF4E82B72E7D300BD13CA /* OnBoardingModel.swift in Sources */,
 			);
