@@ -11,7 +11,6 @@
 		8A780DBF2B9F36950001D685 /* simpleOnBoarding2.json in Sources */ = {isa = PBXBuildFile; fileRef = 8A780DBE2B9F36950001D685 /* simpleOnBoarding2.json */; };
 		8A7D76582BA0A77B0074F624 /* Encodable + Dict.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7D76572BA0A77B0074F624 /* Encodable + Dict.swift */; };
 		8A7D765A2BA0A7850074F624 /* Dictionary + JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7D76592BA0A7850074F624 /* Dictionary + JSON.swift */; };
-		8A8CC3852B73A6DF00565C08 /* UDLModel+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8CC3842B73A6DF00565C08 /* UDLModel+Codable.swift */; };
 		8A8CC38F2B73E39100565C08 /* MyPagesAndEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8CC38E2B73E39100565C08 /* MyPagesAndEvents.swift */; };
 		8A9270B82B73FE2B00AC98DB /* TaggingModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9270B72B73FE2B00AC98DB /* TaggingModelDelegate.swift */; };
 		8A9AF4BA2B72DC5000BD13CA /* TealiumHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9AF4B92B72DC5000BD13CA /* TealiumHelper.swift */; };
@@ -50,7 +49,6 @@
 		8A780DBE2B9F36950001D685 /* simpleOnBoarding2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = simpleOnBoarding2.json; sourceTree = "<group>"; };
 		8A7D76572BA0A77B0074F624 /* Encodable + Dict.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encodable + Dict.swift"; sourceTree = "<group>"; };
 		8A7D76592BA0A7850074F624 /* Dictionary + JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary + JSON.swift"; sourceTree = "<group>"; };
-		8A8CC3842B73A6DF00565C08 /* UDLModel+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UDLModel+Codable.swift"; sourceTree = "<group>"; };
 		8A8CC38E2B73E39100565C08 /* MyPagesAndEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPagesAndEvents.swift; sourceTree = "<group>"; };
 		8A9270B72B73FE2B00AC98DB /* TaggingModelDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaggingModelDelegate.swift; sourceTree = "<group>"; };
 		8A9AF4B92B72DC5000BD13CA /* TealiumHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TealiumHelper.swift; sourceTree = "<group>"; };
@@ -155,7 +153,6 @@
 			children = (
 				8A8CC38E2B73E39100565C08 /* MyPagesAndEvents.swift */,
 				8A9AF4BD2B72DE7500BD13CA /* UDLModel.swift */,
-				8A8CC3842B73A6DF00565C08 /* UDLModel+Codable.swift */,
 				8A9AF4BF2B72E3DF00BD13CA /* MediaModel.swift */,
 				8A9AF4C12B72E3F000BD13CA /* CampaignModel.swift */,
 				8A9AF4C32B72E3FB00BD13CA /* ECommerceModel.swift */,
@@ -332,7 +329,6 @@
 			files = (
 				8A9AF4CE2B72E42C00BD13CA /* OfflineModel.swift in Sources */,
 				8A9AF4D22B72E44C00BD13CA /* PageModel.swift in Sources */,
-				8A8CC3852B73A6DF00565C08 /* UDLModel+Codable.swift in Sources */,
 				8A9AF4DC2B72E47A00BD13CA /* VisitorModel.swift in Sources */,
 				8A9AF4C42B72E3FB00BD13CA /* ECommerceModel.swift in Sources */,
 				8A9AF4D42B72E45700BD13CA /* SearchModel.swift in Sources */,
