@@ -5,17 +5,12 @@
             "page_link_source": "1242121512",
             "page_url": "21321321",
             "page_error": "",
-            "journey_data": {
-                "journey_name": "Onboarding",
-                "journey_type": ""
-            },
             "custom_map": {
-                "journey_otp_method": "",
-                "a": {
-                    "b": {
-                        "c" : "aa"
-                    }
-                }
+                "journey_otp_method": "heeyy",
+                "key1": "value1",
+                "key1": "value1",
+                "key2": "value2",
+                "key3": "value3",
             }
         },
         "new_page_view": {
@@ -23,10 +18,6 @@
             "page_link_source": "",
             "page_url": "",
             "page_error": "",
-            "journey_data": {
-                "journey_name": "Onboarding",
-                "journey_type": ""
-            },
             "custom_map": {
                 "journey_otp_method": ""
             }
@@ -36,10 +27,6 @@
             "page_link_source": "",
             "page_url": "",
             "page_error": "",
-            "journey_data": {
-                "journey_name": "address",
-                "journey_type": ""
-            },
             "custom_map": {
                 "journey_otp_method": ""
             }
@@ -55,12 +42,12 @@
             "page_link_source": "",
             "page_url": "",
             "page_error": "",
-            "journey_data": {
-                "journey_name": "Onboarding",
-                "journey_type": ""
-            },
             "custom_map": {
-                "journey_otp_method": ""
+                "journey_otp_method": "heeyy",
+                "key1": 2,
+                "key1": "value1",
+                "key2": "value2",
+                "key3": "value3",
             }
         },
         "form_end": {
@@ -72,13 +59,6 @@
             "page_link_source": "",
             "page_url": "",
             "page_error": "",
-            "journey_data": {
-                "journey_name": "Onboarding",
-                "journey_ayhaga": "125267",
-                "journey_ayhaga2": "77",
-                "journey_name3": "Onboard3ing",
-                "journey_type": ""
-            },
             "custom_map": {
                 "journey_otp_method": "",
                 "journey_otp_method1": "",
