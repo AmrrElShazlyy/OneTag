@@ -10,18 +10,22 @@ import Foundation
 struct OnBoardingPages: Codable {
     var address: UDL
     var onboardingHome: UDL
+    var newPageView: UDL
     
     enum CodingKeys: String, CodingKey {
         case address
         case onboardingHome = "onboarding_home"
+        case newPageView = "new_page_view"
     }
 }
 
 struct OnBoardingEvents: Codable {
     var formStart: UDL
+    var formEnd: UDL
     
     enum CodingKeys: String, CodingKey {
         case formStart = "form_start"
+        case formEnd = "form_end"
     }
 }
 
@@ -34,9 +38,9 @@ struct OnBoardingModelTaggingModel: TaggingModelDelegate, Codable {
     
     init() {
         guard let path else { return }
-        let obj = self.getObjectModelFromJson(path: path)
-        pages = obj?.pages
-        events = obj?.events
+        let onBoardingModel = self.getObjectModelFromJson(path: path)
+        pages = onBoardingModel?.pages
+        events = onBoardingModel?.events
     }
     
     enum CodingKeys: CodingKey {

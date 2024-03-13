@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8A780DBD2B9F365E0001D685 /* onBoardingEdited.json in Resources */ = {isa = PBXBuildFile; fileRef = 8A780DBC2B9F365E0001D685 /* onBoardingEdited.json */; };
 		8A7D76582BA0A77B0074F624 /* Encodable + Dict.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7D76572BA0A77B0074F624 /* Encodable + Dict.swift */; };
 		8A7D765A2BA0A7850074F624 /* Dictionary + JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7D76592BA0A7850074F624 /* Dictionary + JSON.swift */; };
 		8A9270B82B73FE2B00AC98DB /* TaggingModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9270B72B73FE2B00AC98DB /* TaggingModelDelegate.swift */; };
@@ -44,7 +43,6 @@
 /* Begin PBXFileReference section */
 		00D73AB451254BC5C8391BEF /* Pods-OneTag.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneTag.release.xcconfig"; path = "Target Support Files/Pods-OneTag/Pods-OneTag.release.xcconfig"; sourceTree = "<group>"; };
 		4F89AA142F05C6ACC06433FC /* Pods-OneTag.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneTag.debug.xcconfig"; path = "Target Support Files/Pods-OneTag/Pods-OneTag.debug.xcconfig"; sourceTree = "<group>"; };
-		8A780DBC2B9F365E0001D685 /* onBoardingEdited.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = onBoardingEdited.json; sourceTree = "<group>"; };
 		8A7D76572BA0A77B0074F624 /* Encodable + Dict.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encodable + Dict.swift"; sourceTree = "<group>"; };
 		8A7D76592BA0A7850074F624 /* Dictionary + JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary + JSON.swift"; sourceTree = "<group>"; };
 		8A9270B72B73FE2B00AC98DB /* TaggingModelDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaggingModelDelegate.swift; sourceTree = "<group>"; };
@@ -139,7 +137,6 @@
 			isa = PBXGroup;
 			children = (
 				8A9AF4E22B72E66500BD13CA /* onboarding.json */,
-				8A780DBC2B9F365E0001D685 /* onBoardingEdited.json */,
 				8A9AF4E42B72E74100BD13CA /* simpleOnBoarding.json */,
 			);
 			path = JSONs;
@@ -279,7 +276,6 @@
 				8A9AF4E32B72E66500BD13CA /* onboarding.json in Resources */,
 				8A9AF4E52B72E74100BD13CA /* simpleOnBoarding.json in Resources */,
 				8AD709272B72DAD300D8CF5D /* Main.storyboard in Resources */,
-				8A780DBD2B9F365E0001D685 /* onBoardingEdited.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
