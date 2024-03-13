@@ -36,18 +36,11 @@
         "form_start": {
             "event_action": "OnClick",
             "event_category": "Button",
-            "event_value": "",
             "event_label": "Let's go",
             "page_name": "Onboarding home",
-            "page_link_source": "",
-            "page_url": "",
-            "page_error": "",
             "custom_map": {
                 "journey_otp_method": "heeyy",
-                "key1": 2,
                 "key1": "value1",
-                "key2": "value2",
-                "key3": "value3",
             }
         },
         "form_end": {

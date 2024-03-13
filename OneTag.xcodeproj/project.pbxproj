@@ -8,10 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8A780DBD2B9F365E0001D685 /* onBoardingEdited.json in Resources */ = {isa = PBXBuildFile; fileRef = 8A780DBC2B9F365E0001D685 /* onBoardingEdited.json */; };
-		8A780DBF2B9F36950001D685 /* simpleOnBoarding2.json in Sources */ = {isa = PBXBuildFile; fileRef = 8A780DBE2B9F36950001D685 /* simpleOnBoarding2.json */; };
 		8A7D76582BA0A77B0074F624 /* Encodable + Dict.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7D76572BA0A77B0074F624 /* Encodable + Dict.swift */; };
 		8A7D765A2BA0A7850074F624 /* Dictionary + JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7D76592BA0A7850074F624 /* Dictionary + JSON.swift */; };
-		8A8CC38F2B73E39100565C08 /* MyPagesAndEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8CC38E2B73E39100565C08 /* MyPagesAndEvents.swift */; };
 		8A9270B82B73FE2B00AC98DB /* TaggingModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9270B72B73FE2B00AC98DB /* TaggingModelDelegate.swift */; };
 		8A9AF4BA2B72DC5000BD13CA /* TealiumHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9AF4B92B72DC5000BD13CA /* TealiumHelper.swift */; };
 		8A9AF4BE2B72DE7500BD13CA /* UDLModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9AF4BD2B72DE7500BD13CA /* UDLModel.swift */; };
@@ -33,6 +31,7 @@
 		8A9AF4E32B72E66500BD13CA /* onboarding.json in Resources */ = {isa = PBXBuildFile; fileRef = 8A9AF4E22B72E66500BD13CA /* onboarding.json */; };
 		8A9AF4E52B72E74100BD13CA /* simpleOnBoarding.json in Resources */ = {isa = PBXBuildFile; fileRef = 8A9AF4E42B72E74100BD13CA /* simpleOnBoarding.json */; };
 		8A9AF4E82B72E7D300BD13CA /* OnBoardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9AF4E72B72E7D300BD13CA /* OnBoardingModel.swift */; };
+		8AD1277C2BA1FC320038C373 /* CustomMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD1277B2BA1FC320038C373 /* CustomMap.swift */; };
 		8AD709202B72DAD300D8CF5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD7091F2B72DAD300D8CF5D /* AppDelegate.swift */; };
 		8AD709222B72DAD300D8CF5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD709212B72DAD300D8CF5D /* SceneDelegate.swift */; };
 		8AD709242B72DAD300D8CF5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD709232B72DAD300D8CF5D /* ViewController.swift */; };
@@ -46,10 +45,8 @@
 		00D73AB451254BC5C8391BEF /* Pods-OneTag.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneTag.release.xcconfig"; path = "Target Support Files/Pods-OneTag/Pods-OneTag.release.xcconfig"; sourceTree = "<group>"; };
 		4F89AA142F05C6ACC06433FC /* Pods-OneTag.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneTag.debug.xcconfig"; path = "Target Support Files/Pods-OneTag/Pods-OneTag.debug.xcconfig"; sourceTree = "<group>"; };
 		8A780DBC2B9F365E0001D685 /* onBoardingEdited.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = onBoardingEdited.json; sourceTree = "<group>"; };
-		8A780DBE2B9F36950001D685 /* simpleOnBoarding2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = simpleOnBoarding2.json; sourceTree = "<group>"; };
 		8A7D76572BA0A77B0074F624 /* Encodable + Dict.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encodable + Dict.swift"; sourceTree = "<group>"; };
 		8A7D76592BA0A7850074F624 /* Dictionary + JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary + JSON.swift"; sourceTree = "<group>"; };
-		8A8CC38E2B73E39100565C08 /* MyPagesAndEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPagesAndEvents.swift; sourceTree = "<group>"; };
 		8A9270B72B73FE2B00AC98DB /* TaggingModelDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaggingModelDelegate.swift; sourceTree = "<group>"; };
 		8A9AF4B92B72DC5000BD13CA /* TealiumHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TealiumHelper.swift; sourceTree = "<group>"; };
 		8A9AF4BD2B72DE7500BD13CA /* UDLModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDLModel.swift; sourceTree = "<group>"; };
@@ -71,6 +68,7 @@
 		8A9AF4E22B72E66500BD13CA /* onboarding.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = onboarding.json; sourceTree = "<group>"; };
 		8A9AF4E42B72E74100BD13CA /* simpleOnBoarding.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = simpleOnBoarding.json; sourceTree = "<group>"; };
 		8A9AF4E72B72E7D300BD13CA /* OnBoardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingModel.swift; sourceTree = "<group>"; };
+		8AD1277B2BA1FC320038C373 /* CustomMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMap.swift; sourceTree = "<group>"; };
 		8AD7091C2B72DAD300D8CF5D /* OneTag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneTag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AD7091F2B72DAD300D8CF5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AD709212B72DAD300D8CF5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -143,7 +141,6 @@
 				8A9AF4E22B72E66500BD13CA /* onboarding.json */,
 				8A780DBC2B9F365E0001D685 /* onBoardingEdited.json */,
 				8A9AF4E42B72E74100BD13CA /* simpleOnBoarding.json */,
-				8A780DBE2B9F36950001D685 /* simpleOnBoarding2.json */,
 			);
 			path = JSONs;
 			sourceTree = "<group>";
@@ -151,7 +148,6 @@
 		8A9AF4E62B72E79600BD13CA /* UDLModels */ = {
 			isa = PBXGroup;
 			children = (
-				8A8CC38E2B73E39100565C08 /* MyPagesAndEvents.swift */,
 				8A9AF4BD2B72DE7500BD13CA /* UDLModel.swift */,
 				8A9AF4BF2B72E3DF00BD13CA /* MediaModel.swift */,
 				8A9AF4C12B72E3F000BD13CA /* CampaignModel.swift */,
@@ -168,6 +164,7 @@
 				8A9AF4D72B72E46700BD13CA /* SurveyModel.swift */,
 				8A9AF4D92B72E47100BD13CA /* ToolModel.swift */,
 				8A9AF4DB2B72E47A00BD13CA /* VisitorModel.swift */,
+				8AD1277B2BA1FC320038C373 /* CustomMap.swift */,
 			);
 			path = UDLModels;
 			sourceTree = "<group>";
@@ -333,8 +330,8 @@
 				8A9AF4C42B72E3FB00BD13CA /* ECommerceModel.swift in Sources */,
 				8A9AF4D42B72E45700BD13CA /* SearchModel.swift in Sources */,
 				8AD709242B72DAD300D8CF5D /* ViewController.swift in Sources */,
-				8A8CC38F2B73E39100565C08 /* MyPagesAndEvents.swift in Sources */,
 				8A9AF4DA2B72E47100BD13CA /* ToolModel.swift in Sources */,
+				8AD1277C2BA1FC320038C373 /* CustomMap.swift in Sources */,
 				8AD709202B72DAD300D8CF5D /* AppDelegate.swift in Sources */,
 				8A9AF4CC2B72E42300BD13CA /* FormModel.swift in Sources */,
 				8A9AF4C02B72E3DF00BD13CA /* MediaModel.swift in Sources */,
@@ -349,7 +346,6 @@
 				8A9AF4BE2B72DE7500BD13CA /* UDLModel.swift in Sources */,
 				8A9AF4C62B72E40600BD13CA /* ChatModel.swift in Sources */,
 				8A9AF4C82B72E41100BD13CA /* ComponentModel.swift in Sources */,
-				8A780DBF2B9F36950001D685 /* simpleOnBoarding2.json in Sources */,
 				8A7D765A2BA0A7850074F624 /* Dictionary + JSON.swift in Sources */,
 				8A9AF4D62B72E45F00BD13CA /* SupportModel.swift in Sources */,
 				8A9AF4E82B72E7D300BD13CA /* OnBoardingModel.swift in Sources */,

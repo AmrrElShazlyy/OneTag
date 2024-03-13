@@ -46,7 +46,7 @@ class TealiumHelper {
     }
     
     class func trackView(title: String, data: UDL) {
-        let tealView = TealiumView(title, dataLayer: data.dictionary)
+        let tealView = TealiumView(title, dataLayer: data.dictionary?.flattened)
         TealiumHelper.shared.tealium?.track(tealView)
     }
     
@@ -56,7 +56,7 @@ class TealiumHelper {
     }
     
     class func trackEvent(title: String, data: UDL) {
-        let tealEvent = TealiumEvent(title, dataLayer: data.dictionary)
+        let tealEvent = TealiumEvent(title, dataLayer: data.dictionary?.flattened)
         TealiumHelper.shared.tealium?.track(tealEvent)
     }
 }

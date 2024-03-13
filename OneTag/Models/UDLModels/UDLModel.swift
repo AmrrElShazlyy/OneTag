@@ -6,8 +6,9 @@
 //
 
 import Foundation
+import TealiumSwift
 
-struct UDL: Media, Campaign, ECommerce, Chat, ComponentModel, EventModel, FormModel, Offline, Page, Search, Support, Survey, Tool, Visitor, Codable {
+struct UDL: Media, Campaign, ECommerce, Chat, ComponentModel, EventModel, FormModel, Offline, Page, Search, Support, Survey, Tool, Visitor, CustomMap, Codable {
     
     var advertisingPlatformId: String?
     var downloadError: String?
@@ -126,7 +127,6 @@ struct UDL: Media, Campaign, ECommerce, Chat, ComponentModel, EventModel, FormMo
     var retailStoreId: String?
     var transactionChannelOffline: String?
     var transactionIdOffline: String?
-    var journeyData: Journey?
     var pageBreadcrumb: String?
     var pageCanonicalUrl: String?
     var pageChannel: String?
@@ -300,8 +300,10 @@ struct UDL: Media, Campaign, ECommerce, Chat, ComponentModel, EventModel, FormMo
     var visitorRoamingStatus: String?
     var visitorTools: String?
     var visitorType: String?
+    var customMap: [String: AnyCodable]?
     
     enum CodingKeys: String, CodingKey {
+        case customMap = "custom_map"
         case advertisingPlatformId = "advertising_platform_id"
         case downloadError = "download_error"
         case downloadName = "download_name"
@@ -419,7 +421,6 @@ struct UDL: Media, Campaign, ECommerce, Chat, ComponentModel, EventModel, FormMo
         case retailStoreId = "retail_store_id"
         case transactionChannelOffline = "transaction_channel_offline"
         case transactionIdOffline = "transaction_id_offline"
-        case journeyData = "journey_data"
         case pageBreadcrumb = "page_breadcrumb"
         case pageCanonicalUrl = "page_canonical_url"
         case pageChannel = "page_channel"
