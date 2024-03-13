@@ -169,6 +169,15 @@
 			path = UDLModels;
 			sourceTree = "<group>";
 		};
+		8AD1277D2BA200FE0038C373 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				8AD7091F2B72DAD300D8CF5D /* AppDelegate.swift */,
+				8AD709212B72DAD300D8CF5D /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
 		8AD709132B72DAD200D8CF5D = {
 			isa = PBXGroup;
 			children = (
@@ -190,18 +199,17 @@
 		8AD7091E2B72DAD300D8CF5D /* OneTag */ = {
 			isa = PBXGroup;
 			children = (
+				8AD1277D2BA200FE0038C373 /* AppDelegate */,
 				8A7D76562BA0A7580074F624 /* Extensions */,
 				8A9AF4DD2B72E5BE00BD13CA /* JSONs */,
 				8A9AF4BC2B72DE6300BD13CA /* Models */,
 				8A9AF4BB2B72DE5600BD13CA /* Tealium */,
-				8AD7091F2B72DAD300D8CF5D /* AppDelegate.swift */,
-				8AD709212B72DAD300D8CF5D /* SceneDelegate.swift */,
 				8AD709232B72DAD300D8CF5D /* ViewController.swift */,
+				8A9270B72B73FE2B00AC98DB /* TaggingModelDelegate.swift */,
 				8AD709252B72DAD300D8CF5D /* Main.storyboard */,
 				8AD709282B72DAD400D8CF5D /* Assets.xcassets */,
 				8AD7092A2B72DAD400D8CF5D /* LaunchScreen.storyboard */,
 				8AD7092D2B72DAD400D8CF5D /* Info.plist */,
-				8A9270B72B73FE2B00AC98DB /* TaggingModelDelegate.swift */,
 			);
 			path = OneTag;
 			sourceTree = "<group>";
