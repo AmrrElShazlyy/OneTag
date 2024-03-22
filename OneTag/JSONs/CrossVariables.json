@@ -1,0 +1,49 @@
+{
+  "UDLVersion": { "value": "6.0", "isDynamic": false, "key": "udl_version" },
+  "pageChannel": { "value": "app", "isDynamic": true, "key": "page_channel" },
+  "visitorIdAecid": { "value": "", "isDynamic": true, "key": "visitor_id_aecid" },
+  "visitorType": { "value": "", "isDynamic": true, "key": "visitor_type" },
+  "visitorLoginStatus": { "value": "", "isDynamic": true, "key": "visitor_login_status" },
+  "visitorPermissionFunctional": { "value": "", "isDynamic": true, "key": "visitor_permission_functional" },
+  "visitorPermissionPerformance": { "value": "", "isDynamic": true, "key": "visitor_permission_performance" },
+  "visitorPermissionStrictlyNecessary": {
+    "value": "",
+    "isDynamic": true,
+    "key": "visitor_permission_strictly_necessary"
+  },
+  "visitorPermissionTargeting": { "value": "", "isDynamic": true, "key": "visitor_permission_targeting" },
+  "visitorPermissionUpdateDate": { "value": "", "isDynamic": true, "key": "visitor_permission_update_date" },
+  "visitorAddonBalanceUsageInitialActive": {
+    "value": "",
+    "isDynamic": true,
+    "key": "visitor_addon_balance_usage_initial_active"
+  },
+  "visitorAddonBalanceUsageRemainingActive": {
+    "value": "",
+    "isDynamic": true,
+    "key": "visitor_addon_balance_usage_remaining_active"
+  },
+  "visitorAddonBalanceUsageTypeActive": {
+    "value": "",
+    "isDynamic": true,
+    "key": "visitor_addon_balance_usage_type_active"
+  },
+  "visitorAssetBalanceUsageRemainingActive": {
+    "value": "",
+    "isDynamic": true,
+    "key": "visitor_asset_balance_usage_remaining_active"
+  },
+  "visitorAssetBalanceUsageTypeActive": {
+    "value": "",
+    "isDynamic": true,
+    "key": "visitor_asset_balance_usage_type_active"
+  },
+  "visitorAssetDateEndActive": { "value": "", "isDynamic": true, "key": "visitor_asset_date_end_active" },
+  "visitorAssetDateStartActive": { "value": "", "isDynamic": true, "key": "visitor_asset_date_start_active" },
+  "visitorAssetPlanIdActive": { "value": "", "isDynamic": true, "key": "visitor_asset_plan_id_active" },
+  "visitorAssetPlanNameActive": { "value": "", "isDynamic": true, "key": "visitor_asset_plan_name_active" },
+  "visitorAssetPlanTypeActive": { "value": "", "isDynamic": true, "key": "visitor_asset_plan_type_active" },
+  "visitorCustomerSegment": { "value": "", "isDynamic": true, "key": "visitor_customer_segment" },
+  "visitorCustomerType": { "value": "", "isDynamic": true, "key": "visitor_customer_type" },
+  "visitorIdAssetActive": { "value": "", "isDynamic": true, "key": "visitor_id_asset_active" }
+}
