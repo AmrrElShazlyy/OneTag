@@ -35,7 +35,8 @@ class TealiumHelper {
         
         // optional post init processing
         setCrossVars()
-        tealium?.dataLayer.add(key: "crossVars", value: crossVars?.mapToDict(), expiry: .forever)
+        guard let crossVars else { return }
+        tealium?.dataLayer.add(data: crossVars.mapToDict(), expiry: .forever)
     }
     
     public func start() {
