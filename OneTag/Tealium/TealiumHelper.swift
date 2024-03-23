@@ -35,10 +35,7 @@ class TealiumHelper {
         
         // optional post init processing
         setCrossVars()
-        tealium?.dataLayer.add(key: "mykey", value: "myvalue", expiry: .forever)
-        let dic = mapDict(dict: crossVars!)
-        tealium?.dataLayer.add(key: "crossVars", value: dic, expiry: .forever)
-        
+        tealium?.dataLayer.add(key: "crossVars", value: crossVars?.mapToDict(), expiry: .forever)
     }
     
     public func start() {
@@ -74,44 +71,5 @@ extension TealiumHelper: TaggingModelDelegate {
             return
         }
         crossVars = self.getObjectModelFromJson(path: path)
-        let x = mapDict(dict: crossVars!)
-        print(x)
-//        print(crossVars?["UDLVersion"])
-//        print(crossVars?["pageChannel"])
-//        print(crossVars?["visitorIdAecid"])
-//        print(crossVars?["visitorPermissionPerformance"])
-//        print(crossVars?["visitorPermissionStrictlyNecessary"])
     }
-}
-
-
-/*
- "UDLVersion": { "value": "6.0", "isDynamic": false, "key": "udl_version" },
- "pageChannel": { "value": "app", "isDynamic": true, "key": "page_channel" },
- "visitorIdAecid": { "value": "", "isDynamic": true, "key": "visitor_id_aecid" },
- "visitorType": { "value": "", "isDynamic": true, "key": "visitor_type" },
- "visitorLoginStatus": { "value": "", "isDynamic": true, "key": "visitor_login_status" },
- "visitorPermissionFunctional": { "value": "", "isDynamic": true, "key": "visitor_permission_functional" },
- "visitorPermissionPerformance": { "value": "", "isDynamic": true, "key": "visitor_permission_performance" },
- "visitorPermissionStrictlyNecessary": {
- "value": "",
- "isDynamic": true,
- "key": "visitor_permission_strictly_necessary"
- },
- */
-
-func mapDict(dict: CrossVars) -> [String: Any] {
-    var convertedDictionary: [String: Any] = [:]
-    
-    for (key, value) in dict {
-        // Use key as key and value.value as value
-        if let unwrappedValue = value.value {
-            convertedDictionary[dict[key]?.key ?? "NoKey"] = unwrappedValue
-        } else {
-            // Handle nil values if needed
-            // Here, I'm using an empty string as a placeholder for nil
-            convertedDictionary[key] = ""
-        }
-    }
-    return convertedDictionary
 }
