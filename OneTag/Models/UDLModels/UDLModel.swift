@@ -593,13 +593,6 @@ struct UDL: Media, Campaign, ECommerce, Chat, ComponentModel, EventModel, FormMo
         case visitorRoamingStatus = "visitor_roaming_status"
         case visitorTools = "visitor_tools"
         case visitorType = "visitor_type"
-        
-//        case journeyName = "journey_name"
-//        case journeyType = "journey_type"
-//        case loginDateFirst = "login_date_first"
-//        case loginDateLast = "login_date_last"
-//        case visitorIntent = "visitor_intent"
-//        case visitorIdIntent = "visitor_id_intent"
     }
     
 }
