@@ -32,7 +32,7 @@
             }
         },
         "page_view": {
-            "page_name": "new page name",
+            "page_name": "",
             "page_link_source": "",
             "page_url": "",
             "page_error": "",
@@ -69,13 +69,12 @@
             }
         },
         "ui_interaction": {
-            "event_action": "OnClick",
-            "event_category": "Button",
-            "event_label": "Let's go",
-            "page_name": "Onboarding home",
+            "event_action": "",
+            "event_category": "",
+            "event_label": "",
+            "page_name": "",
             "custom_map": {
-                "journey_otp_method": "heeyy",
-                "key1": "value1",
+            
             }
         }
     }
