@@ -30,6 +30,15 @@
             "custom_map": {
                 "journey_otp_method": ""
             }
+        },
+        "page_view": {
+            "page_name": "new page name",
+            "page_link_source": "",
+            "page_url": "",
+            "page_error": "",
+            "custom_map": {
+                "journey_otp_method": ""
+            }
         }
     },
     "events": {
@@ -57,6 +66,16 @@
                 "journey_otp_method1": "",
                 "journey_otp_method2": "",
                 "journey_otp_method3": ""
+            }
+        },
+        "ui_interaction": {
+            "event_action": "OnClick",
+            "event_category": "Button",
+            "event_label": "Let's go",
+            "page_name": "Onboarding home",
+            "custom_map": {
+                "journey_otp_method": "heeyy",
+                "key1": "value1",
             }
         }
     }
