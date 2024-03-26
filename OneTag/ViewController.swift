@@ -18,13 +18,13 @@ class ViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         guard let newPageView = onBoardingTaggingModel.pages?.newPageView else { return }
-        TealiumHelper.trackView(title: "formStartEvent$$", data: newPageView)
+        TealiumHelper.trackView(title: "formStartEvent", data: newPageView)
     }
     
     @IBAction func TrackEvent(_ sender: UIButton) {
         guard var formStartEvent = onBoardingTaggingModel.events?.formStart else { return }
-        formStartEvent.customMap = ["newCustomrMap": AnyCodable("newValue")]
-        TealiumHelper.trackEvent(title: "formStartEvent$$", data: formStartEvent)
+        formStartEvent.customMap = ["newCustomMap": AnyCodable("newValue")]
+        TealiumHelper.trackEvent(title: "formStartEvent", data: formStartEvent)
     }
     
 }

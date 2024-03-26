@@ -27,7 +27,6 @@
 		8A9AF4D82B72E46700BD13CA /* SurveyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9AF4D72B72E46700BD13CA /* SurveyModel.swift */; };
 		8A9AF4DA2B72E47100BD13CA /* ToolModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9AF4D92B72E47100BD13CA /* ToolModel.swift */; };
 		8A9AF4DC2B72E47A00BD13CA /* VisitorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9AF4DB2B72E47A00BD13CA /* VisitorModel.swift */; };
-		8A9AF4E32B72E66500BD13CA /* onboarding.json in Resources */ = {isa = PBXBuildFile; fileRef = 8A9AF4E22B72E66500BD13CA /* onboarding.json */; };
 		8A9AF4E52B72E74100BD13CA /* simpleOnBoarding.json in Resources */ = {isa = PBXBuildFile; fileRef = 8A9AF4E42B72E74100BD13CA /* simpleOnBoarding.json */; };
 		8A9AF4E82B72E7D300BD13CA /* OnBoardingTaggingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9AF4E72B72E7D300BD13CA /* OnBoardingTaggingModel.swift */; };
 		8ABBECDE2BADCE4500C835BE /* CrossVariables.json in Resources */ = {isa = PBXBuildFile; fileRef = 8ABBECDD2BADCE4500C835BE /* CrossVariables.json */; };
@@ -65,7 +64,6 @@
 		8A9AF4D72B72E46700BD13CA /* SurveyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyModel.swift; sourceTree = "<group>"; };
 		8A9AF4D92B72E47100BD13CA /* ToolModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolModel.swift; sourceTree = "<group>"; };
 		8A9AF4DB2B72E47A00BD13CA /* VisitorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorModel.swift; sourceTree = "<group>"; };
-		8A9AF4E22B72E66500BD13CA /* onboarding.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = onboarding.json; sourceTree = "<group>"; };
 		8A9AF4E42B72E74100BD13CA /* simpleOnBoarding.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = simpleOnBoarding.json; sourceTree = "<group>"; };
 		8A9AF4E72B72E7D300BD13CA /* OnBoardingTaggingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingTaggingModel.swift; sourceTree = "<group>"; };
 		8ABBECDD2BADCE4500C835BE /* CrossVariables.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CrossVariables.json; sourceTree = "<group>"; };
@@ -141,7 +139,6 @@
 		8A9AF4DD2B72E5BE00BD13CA /* JSONs */ = {
 			isa = PBXGroup;
 			children = (
-				8A9AF4E22B72E66500BD13CA /* onboarding.json */,
 				8A9AF4E42B72E74100BD13CA /* simpleOnBoarding.json */,
 				8ABBECDD2BADCE4500C835BE /* CrossVariables.json */,
 			);
@@ -280,7 +277,6 @@
 				8AD7092C2B72DAD400D8CF5D /* LaunchScreen.storyboard in Resources */,
 				8AD709292B72DAD400D8CF5D /* Assets.xcassets in Resources */,
 				8ABBECDE2BADCE4500C835BE /* CrossVariables.json in Resources */,
-				8A9AF4E32B72E66500BD13CA /* onboarding.json in Resources */,
 				8A9AF4E52B72E74100BD13CA /* simpleOnBoarding.json in Resources */,
 				8AD709272B72DAD300D8CF5D /* Main.storyboard in Resources */,
 			);

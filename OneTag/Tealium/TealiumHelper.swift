@@ -35,8 +35,6 @@ class TealiumHelper {
         
         // optional post init processing
         setCrossVars()
-        guard let crossVars else { return }
-        tealium?.dataLayer.add(data: crossVars.mapToDict(), expiry: .forever)
     }
     
     public func start() {
@@ -62,6 +60,18 @@ class TealiumHelper {
         let tealEvent = TealiumEvent(title, dataLayer: data.dictionary?.flattened)
         TealiumHelper.shared.tealium?.track(tealEvent)
     }
+    
+    func addDataLayerItem(data: [String: Any], expiry: Expiry) {
+        tealium?.dataLayer.add(data: data, expiry: expiry)
+    }
+    
+    func addDataLayerItem(key: String, data: [String: Any], expiry: Expiry) {
+        tealium?.dataLayer.add(key: key, value: data, expiry: expiry)
+    }
+    
+    func removeDataLayerItem(keys: [String]) {
+        tealium?.dataLayer.delete(for: keys)
+    }
 }
 
 extension TealiumHelper: TaggingModelDelegate {
@@ -72,5 +82,7 @@ extension TealiumHelper: TaggingModelDelegate {
             return
         }
         crossVars = self.getObjectModelFromJson(path: path)
+        guard let crossVars else { return }
+        tealium?.dataLayer.add(data: crossVars.mapToDict(), expiry: .forever)
     }
 }
